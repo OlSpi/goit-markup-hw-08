@@ -1,0 +1,36 @@
+.logo {
+
+  color: $link-color;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+
+@media screen and (min-width: 1200px) {
+   font-size: 26px;
+  line-height: 1.2;
+}
+}
+
+.header__logo {
+display: block;
+
+    @media screen and (max-width: 767px)  {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+}
+
+
+.header__logo--color {
+  color: #000;
+}
+.footer__logo {
+  display: block;
+
+  margin-bottom: 20px;
+}
+.footer__logo-color {
+  color: $background-color;
+}
