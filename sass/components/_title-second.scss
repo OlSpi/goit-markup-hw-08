@@ -1,0 +1,18 @@
+.title-second {
+  color: $brand-color;
+
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.2;
+
+    margin-bottom: 50px;
+  }
+}
