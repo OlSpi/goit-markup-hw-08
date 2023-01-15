@@ -445,7 +445,7 @@ body {
 }
 @media screen and (min-width: 970px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/headerdesimg.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/headerdesimg.jpg);
   }
 }
 @media screen and (min-width: 970px) and (min-device-pixel-ratio: 2), screen and (min-width: 970px) and (min-resolution: 192dpi), screen and (min-width: 970px) and (min-resolution: 2dppx) {
