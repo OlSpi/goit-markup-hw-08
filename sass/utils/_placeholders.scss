@@ -1,0 +1,40 @@
+%centrFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%socials-icons {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%submit {
+  color: $background-color;
+  background: $link-color;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  border-style: none;
+  cursor: pointer;
+}
+
+%lable {
+  color: $background-color;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+%discription-text-size {
+  font-size: 16px;
+  line-height: 1.9;
+}
