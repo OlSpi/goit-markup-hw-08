@@ -4,7 +4,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/headermobilmg.jpg);
+    url(../images/headermobilmg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(/images/headermobolimg@2x.jpg);
+      background-image: url(../images/headermobolimg@2x.jpg);
     }
   }
 
@@ -25,13 +25,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/headertabimg.jpg);
+      url(./images/headertabimg.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .hero {
-        background-image: url(/images/headertabimg@2x.jpg);
+        background-image: url(../images/headertabimg@2x.jpg);
       }
     }
   }
@@ -41,13 +41,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/headerdesimg.jpg);
+      url(./images/headerdesimg.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .hero {
-        background-image: url(/images/hedardesmg@2x.jpg);
+        background-image: url(../images/hedardesmg@2x.jpg);
       }
     }
   }
