@@ -1,0 +1,108 @@
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  position: fixed;
+  z-index: 3;
+
+  width: 100%;
+  height: 100%;
+
+  overflow-y: scroll;
+
+  left: 0px;
+  top: 0px;
+
+   padding: 95px 15px;
+
+  @media screen and (min-width: 480px) {
+    padding: 0;
+  }
+}
+
+.is-hidden {
+  transform: scaley(0);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+
+  background-color: $background-color;
+
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+
+  border-radius: 4px;
+
+
+  @media screen and (min-width: 480px) {
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    width: 450px;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
+}
+
+.modal-title {
+  color: $brand-color;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  padding-top: 40px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 1199px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.close-modal {
+  position: absolute;
+
+  fill: #000000;
+
+  background-color: $background-color;
+
+  width: 30px;
+  height: 30px;
+
+  top: 8px;
+  right: 8px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+
+  cursor: pointer;
+
+  padding: 0;
+
+  @extend %centrFlex;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: $link-color;
+  }
+}
