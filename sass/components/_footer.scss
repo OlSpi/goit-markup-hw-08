@@ -1,0 +1,41 @@
+.footer {
+  background: $background-second-color;
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (max-width: 1199px) {
+  text-align: center;
+
+  }
+  @media screen and (min-width: 1200px) {
+      padding-top: 68px;
+  padding-bottom: 52px;
+  }
+}
+.footer-flex {
+
+  @media screen and (min-width: 1200px) {
+  display: flex;
+  justify-content: space-between;
+  }
+}
+
+.footer-flex-tablet {
+
+    @media screen and (min-width: 768px)  {
+display: flex;
+    }
+
+      @media screen and (min-width: 768px) and  (max-width: 1199px) {
+        justify-content: space-around;
+      }
+
+        @media screen and (min-width: 1200px) {
+gap: 70px;
+
+}
+
+}
+
+
