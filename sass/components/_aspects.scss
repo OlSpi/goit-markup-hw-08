@@ -1,0 +1,58 @@
+.aspects {
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 0;
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: -30px;
+  }
+}
+
+.aspects-list {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
+}
+
+.aspects-list__item {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  
+width: calc((100% - 30px) / 2);
+  }
+}
+
+.aspects-icon-box {
+  background-color: #f5f4fa;
+
+  height: 120px;
+
+  @extend %centrFlex;
+
+
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+.aspects-list__title {
+  color: $brand-color;
+  text-align: center;
+  font-size: 14px;
+
+  @extend %lable;
+
+  margin-bottom: 10px;
+  margin-top: 30px;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.aspects-list__text {
+  line-height: 1.7;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+}
