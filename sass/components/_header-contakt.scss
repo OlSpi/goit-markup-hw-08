@@ -1,12 +1,6 @@
 .header-contakt {
 
-  @media screen and (max-width: 767px) {
-    flex-direction: column-reverse;
-    display: flex;
-
-    margin-top: 302px;
-    margin-bottom: 64px;
-  }
+ 
 
   @media screen and (min-width: 768px) {
     margin-left: auto;
@@ -20,39 +14,22 @@
 }
 
 .header-contakt__item {
+display: none;
+
+  @media screen and (min-width: 768px) {
+
 
   fill: $text-color;
   color: $text-color;
 
   font-weight: 500;
-  font-size: 24px;
-  line-height: 1.6;
 
-  letter-spacing: 0.02em;
-
-  margin-bottom: 0;
-
-
-    &:nth-child(2) {
-      font-size: 28px;
-      line-height: 1.17;
-
-      margin-bottom: 32px;
-    }
-  
-  @media screen and (min-width: 360px) {
-
-      &:nth-child(2) {
-      font-size: 34px;
-    
-    }
-  }
-
-  @media screen and (min-width: 768px) {
     display: block;
 
     font-size: 12px;
     line-height: 0.8;
+
+      letter-spacing: 0.02em;
 
     display: flex;
     gap: 8px;
@@ -85,8 +62,3 @@
   }
 }
 
-.header-contakt__icon {
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-}
