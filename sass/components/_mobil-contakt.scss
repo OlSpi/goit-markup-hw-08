@@ -1,0 +1,46 @@
+.mobil-contakt {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobil-contakt__item {
+  fill: $text-color;
+  color: $text-color;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.6;
+
+  letter-spacing: 0.02em;
+
+  margin-bottom: 0;
+
+  &:nth-child(1) {
+    font-size: 28px;
+    line-height: 1.17;
+
+    margin-bottom: 32px;
+  }
+
+  @media screen and (min-width: 360px) {
+    &:nth-child(1) {
+      font-size: 34px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  &:hover,
+  &:focus {
+    color: $link-color;
+    fill: $link-color;
+  }
+}
